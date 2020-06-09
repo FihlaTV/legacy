@@ -76,7 +76,7 @@ Query parameters:
 
 		<!-- Open Graph + Schema.org + Twitter Card -->
 		<meta name="twitter:card" content="summary">
-		<meta name="twitter:site" content="@molview">
+		<meta name="twitter:site" content="@VisarLabs">
 		<meta property="og:type" content="website" />
 		<meta property="og:site_name" content="MolView" />
 		<?php
@@ -496,8 +496,8 @@ Query parameters:
 					<div class="dialog" id="start-dialog">
 						<img id="welcome-logo" src="img/logo.svg" alt="" />
 						<img id="welcome-mark" src="img/mark.svg" alt="MolView" />
-						<a id="agpl-logo-wrapper" target="_blank" href="http://github.com/molview">
-							<img id="agpl-logo" src="img/agpl.svg" alt="AGPL">
+						<a id="agpl-logo-wrapper" target="_blank" href="http://github.com/FihlaTV">
+							<img id="agpl-logo" src="img/caffeine.svg" alt="AGPL">
 						</a>
 						<div id="welcome-loading-msg">LOADING&hellip;</div>
 						<p>By closing this banner and using MolView, you agree with the Terms of Use!</p>
@@ -506,7 +506,7 @@ Query parameters:
 							<!-- <button id="action-start-help" class="btn btn-large">Get started</button> -->
 							<button class="btn close btn-large btn-primary">Close</button>
 						</div>
-						<p>We need your support to create more cool stuff! <a class="btn" target="_blank" title="Consider donating to this project" href="https://www.patreon.com/molview">Donate</a></p>
+					
 						<p id="allow-tracking-wrapper">
 							<input id="allow-tracking" type="checkbox" />
 							<script type="text/javascript">
@@ -517,15 +517,15 @@ Query parameters:
 						</p>
 						<div class="btn-group">
 							<a class="btn" target="_blank" title="YouTube Channel" href="https://www.youtube.com/channel/UCRP9nXCC59TMlqc-bk1mi3A">YouTube</a>
-							<a class="btn" target="_blank" title="@molview" href="https://twitter.com/molview">Twitter</a>
-							<a class="btn" target="_blank" title="Facebook page" href="https://www.facebook.com/molview">Facebook</a>
-							<a class="btn" target="_blank" title="+MolView" href="https://google.com/+MolViewOrganization/about" rel="publisher">Google+</a>
-							<a class="btn" target="_blank" title="MolView Blog" href="http://blog.molview.org">Blog</a>
+							<a class="btn" target="_blank" title="@VisarLabs" href="https://twitter.com/molview">Twitter</a>
+							<a class="btn" target="_blank" title="Facebook page" href="https://www.facebook.com/VisarLabs">Facebook</a>
+							
+							<a class="btn" target="_blank" title="MolView Blog" href="http://blog.visar.co.za">Blog</a>
 						</div>
 					</div>
 					<div class="dialog" id="about-dialog" style="display: none;">
 						<h2>About</h2>
-						<p>MolView is an intuitive, Open-Source web-application to make science and education more awesome! MolView is mainly intended as web-based data visualization platform. You can use MolView to search through different scientific databases including compound databases, protein databases and spectral databases, and view records from these databases as interactive visualizations using WebGL and HTML5 technologies. This web application is built on top of the JavaScript libraries and online services listed below. The <a class="link" href="http://chemagic.com/JSmolVMK2.htm" target="_blank" title="Virtual Model Kit">Virtual Model Kit</a> has been a source of inspiration for the birth of this project.</p>
+						<p>MolView is an intuitive web-application to make science and education more awesome! MolView is mainly intended as web-based data visualization platform. You can use MolView to search through different scientific databases including compound databases, protein databases and spectral databases, and view records from these databases as interactive visualizations using WebGL and HTML5 technologies. This web application is built on top of the JavaScript libraries and online services listed below. The <a class="link" href="http://chemagic.com/JSmolVMK2.htm" target="_blank" title="Virtual Model Kit">Virtual Model Kit</a> has been a source of inspiration for the birth of this project.</p>
 						<ul>
 							<li>JavaScript libraries
 								<ul>
